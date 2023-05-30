@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "study-regression"
+version = "0.1.0"
+description = ""
+authors = ["torupa <xpt77@outlook.com>"]
+readme = "README.md"
+packages = [{include = "study_regression"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+statsmodels = "^0.14.0"
+scikit-learn = "^1.2.2"
+numpy = "^1.24.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
